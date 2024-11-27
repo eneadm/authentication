@@ -21,9 +21,9 @@ docker run --rm \
     composer install --ignore-platform-reqs
 ```
 
-### 2. Start the Application 🚀
+### 2. Start the backend containers 🚀
 
-Start the application using Laravel Sail in detached mode:
+Start the backend containers using Laravel Sail in detached mode:
 
 ```bash
 ./vendor/bin/sail up -d
@@ -45,7 +45,7 @@ Seed the database with a test user:
 ./vendor/bin/sail art db:seed
 ```
 
-### 5. Install Frontend Dependencies 📦
+### 5. Install Frontend Dependencies and run 🚀
 
 Install the required frontend dependencies and compile assets:
 
