@@ -45,7 +45,7 @@ Seed the database with a test user:
 ./vendor/bin/sail art db:seed
 ```
 
-### 5. Install Frontend Dependencies and run 🚀
+### 5. Install Frontend Dependencies and Run the App 🚀
 
 Install the required frontend dependencies and compile assets:
 
